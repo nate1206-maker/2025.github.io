@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>某2025的神之子 | 設定資料庫</title>
+    <style>
+        :root {
+            --primary-bg: #1a1a2e;
+            --sidebar-bg: #16213e;
+            --accent-color: #48cae4;
+            --text-color: #e9ecef;
+            --box-bg: #0f3460;
+        }
+        body { font-family: "Microsoft JhengHei", sans-serif; background-color: var(--primary-bg); color: var(--text-color); margin: 0; display: flex; }
+        
+        /* 側邊導覽 */
+        nav { width: 260px; background: var(--sidebar-bg); height: 100vh; position: fixed; padding: 20px; border-right: 2px solid var(--accent-color); overflow-y: auto; }
+        nav h1 { color: var(--accent-color); font-size: 1.5em; text-align: center; margin-bottom: 30px; }
+        nav ul { list-style: none; padding: 0; }
+        nav li { margin: 20px 0; border-bottom: 1px solid #2d4263; padding-bottom: 5px; }
+        nav a { color: var(--text-color); text-decoration: none; display: block; transition: 0.3s; }
+        nav a:hover { color: var(--accent-color); padding-left: 10px; }
+
+        /* 主內容區 */
+        main { margin-left: 300px; padding: 50px; line-height: 1.8; max-width: 900px; }
+        section { margin-bottom: 60px; animation: fadeIn 1s ease-in; }
+        h2 { border-left: 5px solid var(--accent-color); padding-left: 15px; color: var(--accent-color); }
+        .card { background: var(--box-bg); padding: 20px; border-radius: 8px; margin-top: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+        .limit-box { background: #3d0000; border: 1px solid #ff4d4d; padding: 15px; margin-top: 15px; border-radius: 5px; }
+        
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body>
+
+<nav>
+    <h1>某2025的神之子</h1>
+    <ul>
+        <li><a href="#intro">作品簡介 (2025)</a></li>
+        <li><a href="#geography">平坦世界地理與天文</a></li>
+        <li><a href="#magic">魔法體系：魔力與信仰</a></li>
+        <li><a href="#corridor">共有迴廊與獨有迴廊</a></li>
+        <li><a href="#timeline">2025 現代大事記</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="intro">
+        <h2>作品核心：現代奇幻 2025</h2>
+        <div class="card">
+            <p><strong>類型：</strong> 現代都市奇幻 [2]</p>
+            <p><strong>核心假設：</strong> 如果 2025 年的現代世界地理是「平坦的」，且魔法源於「信仰狂熱」？ [3]</p>
+            <p>本作探討在高度資訊化的現代，古老神學與當代科技（如 MIKU、虛擬偶像）交織出的新世界觀。 [5]</p>
+        </div>
+    </section>
+
+    <section id="geography">
+        <h2>平坦世界天文地理</h2>
+        <div class="card">
+            <h3>1. 太陽的螺旋運動</h3>
+            <p>太陽並非繞行圓周，而是以螺旋形移動，共轉三圈完成一年。12/31 到達世界邊緣（離中心 6400 公里）。</p>
+            <p><strong>赤道定義：</strong> 太陽移動軌跡在地圖上的投影，即為人類文明的熱力核心區。 [1]</p>
+            <h3>2. 日座 (World Seat) 與極地</h3>
+            <ul>
+                <li><strong>日座：</strong> 世界中心，6/15-7/15 期間太陽在此移動，形成<strong>永晝</strong>。</li>
+                <li><strong>永夜：</strong> 12/15-12/31 太陽遠離中心，日座陷入低溫永夜。</li>
+                <li><strong>極地：</strong> 超越人類生存區的無盡海洋，因照不到光而結成的巨大冰層。</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="magic">
+        <h2>魔法體系：魔力與信仰</h2>
+        <div class="card">
+            <p><strong>能量原料：</strong> 「魔力」——知性生物靈魂產生的非粒子、非波物質。 [6]</p>
+            <p><strong>運作媒介：</strong> 信仰（包含愛、狂熱）。信仰對象可以是神靈、石頭，甚至是<strong>MIKU、偶像、二次元角色</strong>。</p>
+            <div class="limit-box">
+                <strong>桑德森魔法定律應用：理解與限制 [4, 7]</strong><br>
+                1. 科技無法偵測魔力，僅「覺醒者」能理解其運作。<br>
+                2. 魔法的威力取決於信仰的純粹度與狂熱程度。
+            </div>
+        </div>
+    </section>
+
+    <section id="corridor">
+        <h2>信仰迴廊分類</h2>
+        <div class="card">
+            <h3>共有迴廊 (Shared Corridor)</h3>
+            <p>由集體信仰（如基督教、MIKU 粉絲圈）構成。使用<strong>{共有術式}</strong>，優點是魔法奇蹟極其穩定，且能產生連鎖效應。</p>
+            <h3>獨有迴廊 (Individual Corridor)</h3>
+            <p>擁有高靈魂特殊性的人（通常是<strong>沒人喜歡的社交障礙分</strong>特質）無法加入集體。其能力極端不穩定，但具備無法被預測的獨特性。 [8]</p>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
